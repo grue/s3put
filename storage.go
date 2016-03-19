@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"launchpad.net/goamz/aws"
-	"launchpad.net/goamz/s3"
+	"gitlab.com/grue/goamz/aws"
+	"gitlab.com/grue/goamz/s3"
 )
 
 type Item struct {
